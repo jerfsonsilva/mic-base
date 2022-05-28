@@ -4,5 +4,5 @@ hello:
       bucket: mic-base
     events:
       - httpApi:
-          path: /
+          path: /hello
           method: get
