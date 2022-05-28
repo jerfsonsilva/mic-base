@@ -1,5 +1,5 @@
 base:
-    handler: ${self:custom.funcDir}/base/baseS3Event.handler
+    handler: ${self:custom.funcDir}/hello/hello.handler
     environment:
       bucket: mic-base
     events:
