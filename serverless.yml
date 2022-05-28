@@ -39,9 +39,6 @@ custom:
       mountCode: True
     docker:
       sudo: True
-  serverless-offline:
-    port: 4000
-    stage: dev
 
 functions:
   hello: ${file(${self:custom.funcDir}/hello/_handlers.yml):hello}
