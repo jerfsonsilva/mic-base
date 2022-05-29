@@ -1,13 +1,14 @@
 {
     "dependencies": {
         "eslint": "^8.16.0",
+        "mysql2": "^2.3.3",
         "nodemon": "^2.0.16",
-        "serverless-localstack": "^0.4.36",
-        "sharp": "^0.30.5"
+        "sequelize": "^6.20.1",
+        "sequelize-cli": "^6.4.1"
     },
     "name": "mic-optimize-file",
     "version": "1.0.0",
-    "main": "handler.js",
+    "main": "models/index.js",
     "license": "MIT",
     "scripts": {
         "predeploy": "yarn ",
