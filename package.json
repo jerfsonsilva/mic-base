@@ -1,17 +1,16 @@
 {
     "dependencies": {
         "eslint": "^8.16.0",
-        "mysql2": "^2.3.3",
         "nodemon": "^2.0.16",
-        "sequelize": "^6.20.1",
-        "sequelize-cli": "^6.4.1"
+        "serverless-localstack": "^0.4.36",
+        "sharp": "^0.30.5"
     },
-    "name": "mic-optimize-file",
+    "name": "mic-base",
     "version": "1.0.0",
-    "main": "models/index.js",
+    "main": "handler.js",
     "license": "MIT",
     "scripts": {
-        "predeploy": "yarn ",
+        "predeploy": "yarn",
         "build": "serverless webpack --stage local",
         "deploy": "serverless deploy --stage local",
         "deploy-prod": "serverless deploy --stage production",
