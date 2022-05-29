@@ -10,7 +10,7 @@
     "main": "handler.js",
     "license": "MIT",
     "scripts": {
-        "predeploy": "yarn",
+        "predeploy": "yarn ",
         "build": "serverless webpack --stage local",
         "deploy": "serverless deploy --stage local",
         "deploy-prod": "serverless deploy --stage production",
